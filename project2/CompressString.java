@@ -127,7 +127,7 @@ public class CompressString {
    * recursive version is the same than te previous one.
    */
   public String compressRecursive(String src) {
-    boolean thereIsNoMoreWordToCompress = false;
+    boolean noMoreWordToCompress = false;
 
     if (src.length() <= 1)
       return src;
